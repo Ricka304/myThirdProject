@@ -1,0 +1,69 @@
+myThirdProject is a maven project which includes the following project structure
+
+Project-->
+			src/main
+				java------->
+								Common--------->
+													Constant.java
+													InputProperties.java
+											
+								Utils--------->
+													DBUtil.java
+													CSVUtilJava
+											
+								dto----------->		All the Response dto's are placed here using jackson, you can use 
+								
+								Functional---->
+								
+				resources-->
+								FlatFiles/localFiles
+								Baselines
+								Properties----> 
+													Error_Codes
+													Error_Messages
+													Input_Properties
+													Hadoop_Properties
+								Payloads
+				
+								
+			src/test/java---->
+								
+			docs------------->
+			                  Automation FrameworkWalkthrough
+			                  AutomationSetup
+			lib-------------->
+							 Internal Jars if any
+							 
+			testSuites
+			MavenDependencies
+			target
+			pom.xml---> 
+						RestAssured-->Java DSL for easy testing of REST services
+						Testng-->Testing Framework
+						Allure Testng->flexible lightweight multi-language test report tool
+						Jackson DataBinding-General data-binding functionality for Jackson: works on core streaming API
+						json-path(from rest assured maven dependency)
+						json-schema-validator (from rest assured)
+						xml-path
+						For testng
+						java-hamcrest
+						hamcrest-core
+						hamcrest-library
+						
+						executing project thrgh pom.xml -2 plugins are required
+								a.maven-compiler
+								b.maven surefire plugin
+								
+								
+Github
+Create a remote/git repository and fetch the url under code
+https://github.com/Ricka304/myThirdProject.git
+Create a local repository->clone local git repo withing eclipse using github url
+Add your project to local repository
+Right clickon project->Team->Share Project->Select local repo from drop down
+
+
+						
+						
+						
+						

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="UserSuite">
+  <test thread-count="1" name="UserTest">
+    <classes>
+      <class name="com.dreamland.restautomation.UserMethods"/>
+        </classes>
+  </test> <!-- UserTest -->
+</suite> <!-- UserSuite -->

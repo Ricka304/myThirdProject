@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="UserSuite" duration-ms="7620" started-at="2022-03-13T13:51:49 IST" finished-at="2022-03-13T13:51:56 IST">
+    <groups>
+    </groups>
+    <test name="UserTest" duration-ms="7620" started-at="2022-03-13T13:51:49 IST" finished-at="2022-03-13T13:51:56 IST">
+      <class name="com.dreamland.restautomation.UserMethods">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.dreamland.restautomation.UserMethods@309e345f]" name="createUser" duration-ms="6626" started-at="2022-03-13T13:51:49 IST" finished-at="2022-03-13T13:51:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="createUser2()[pri:0, instance:com.dreamland.restautomation.UserMethods@309e345f]" name="createUser2" duration-ms="808" started-at="2022-03-13T13:51:55 IST" finished-at="2022-03-13T13:51:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser2 -->
+      </class> <!-- com.dreamland.restautomation.UserMethods -->
+    </test> <!-- UserTest -->
+  </suite> <!-- UserSuite -->
+</testng-results>

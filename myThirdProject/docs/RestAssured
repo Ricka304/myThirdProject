@@ -1,0 +1,13 @@
+Keywords used in BDD
+given()-- set cookies
+		  add Authorization
+		  add param
+		  set headers info
+
+
+when()--
+        get,post,put,delete,patch
+
+then()--
+         validate status code,extract response from api,extract header,cookies 
+         response body
